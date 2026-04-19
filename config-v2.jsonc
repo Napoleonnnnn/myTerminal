@@ -1,0 +1,141 @@
+{
+  "$schema": "https://github.com",
+  "logo": {
+    "type": "kitty",
+    "source": "/home/akbar-permana/Pictures/zshpic/johan.png",
+    "height": 25,
+    "width": 47,
+    "padding": {
+      "top": 1,
+      "left": 4
+    }
+  },
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "{#33}┌─────────────────────────────────────Hardware─────────────────────────────────────┐   ┌────────────Monitor────────────┐"
+    },
+    {
+      "type": "host",
+      "key": "{#31}□PC",
+      "format": "{name} ({version})                      {#33}                                    │   {#34}Processes: {#37}Running"
+    },
+    {
+      "type": "cpu",
+      "key": "{#31} ├⊙",
+      "format": "{name} ({cores-logical}) @ {freq-max} GHz        {#33}                     │   {#34}Load: {#37}Low"
+    },
+    {
+      "type": "gpu",
+      "key": "{#31} ├⊟",
+      "format": "{name} [{type}]                         {#33}                              │   {#34}VRAM: {#37}Dynamic"
+    },
+    {
+      "type": "memory",
+      "key": "{#31} ├⊟",
+      "format": "{used} / {total} ({percentage})                   {#33}                                       │   {#34}Type: {#37}DDR4"
+    },
+    {
+      "type": "disk",
+      "key": "{#31} └⊟",
+      "format": "{size-used} / {size-total} ({size-percentage}) - {filesystem}          {#33}                                       │   {#34}Stat: {#32}Healthy"
+    },
+    {
+      "type": "custom",
+      "format": "{#33}└──────────────────────────────────────────────────────────────────────────────────┘   └───────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "{#33}┌─────────────────────────────────────Software─────────────────────────────────────┐   ┌────────────Quotes─────────────┐"
+    },
+    {
+      "type": "os",
+      "key": "{#34}□OS",
+      "format": "{pretty-name} {arch}               {#33}                             │   {#37}「 The    end    is      」"
+    },
+    {
+      "type": "kernel",
+      "key": "{#34} ├⊙",
+      "format": "{release}                             {#33}                                      │   {#37}「        near           」"
+    },
+    {
+      "type": "packages",
+      "key": "{#34} ├⊙",
+      "format": "{all}                                    {#33}                                            │   {#37}「 - Johan Liebert       」"
+    },
+    {
+      "type": "terminal",
+      "key": "{#34} ├⊟",
+      "format": "{pretty-name} {version}                      {#33}                                                  │   {#37}「                       」"
+    },
+    {
+      "type": "shell",
+      "key": "{#34} └⊙",
+      "format": "{exe-name} {version}                               {#33}                                              │   {#37}「 Monster               」"
+    },
+    {
+      "type": "custom",
+      "format": "{#33}└──────────────────────────────────────────────────────────────────────────────────┘   └───────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "de",
+      "key": "{#95}□DE",
+      "format": "{pretty-name}                                     {#33}                                          │   {#35}Mode: Dark"
+    },
+    {
+      "type": "wm",
+      "key": "{#95} ├⊟",
+      "format": "{pretty-name}                                      {#33}                                        │   {#35}Ver : 46.0"
+    },
+    {
+      "type": "wmtheme",
+      "key": "{#95} ├T",
+      "format": "{result}                          {#33}                                       │   {#35}Type: GTK3"
+    },
+    {
+      "type": "font",
+      "key": "{#95} ├A",
+      "format": "{combined}                {#33}                                       │   {#35}Size: 11pt"
+    },
+    {
+      "type": "cursor",
+      "key": "{#95} └⊙",
+      "format": "{theme} ({size}px)                          {#33}                                  │   {#35}Acc : High"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "{#33}┌──────────────────────────────────────Miscellaneous───────────────────────────────┐   ┌────────────Network────────────┐"
+    },
+    {
+      "type": "uptime",
+      "key": "{#33}Uptime",
+      "format": "{1}                                      {#33}                                          │   {#34}Net : {#32}Up"
+    },
+    {
+      "type": "battery",
+      "key": "{#33}Battery",
+      "format": "{capacity}% ({status})                       {#33}                                     │   {#34}Temp: {#37}Cool"
+    },
+    {
+      "type": "datetime",
+      "key": "{#33}Date and Time",
+      "format": "{month}/{day-in-month}/{year} - {hour-pretty}:{minute-pretty} WIB           {#33}                                          │   {#34}Loc : {#37}ID"
+    },
+    {
+      "type": "custom",
+      "format": "{#33}└──────────────────────────────────────────────────────────────────────────────────┘   └───────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "colors",
+      "paddingLeft": 35,
+      "symbol": "star"
+    }
+  ]
+}
