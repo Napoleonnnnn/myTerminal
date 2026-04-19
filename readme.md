@@ -1,7 +1,7 @@
 # config-v2.jsonc
 
-> *"Buat apa pake desktop cantik kalau kerjanya tetep nunda-nunda"*  
-> *— akbar permana, sambil staring ke monitor yang udah dikonfigurasi 3 jam*
+> *"kenapa config ini dibuat, karena usernya pegen pengakuan, udah itu aja"*
+> *— akbar permana*
 
 <div align="center">
 
@@ -27,6 +27,7 @@
 Config [fastfetch](https://github.com/fastfetch-cli/fastfetch) yang — jujur — habiskan waktu lebih lama dari seharusnya.
 
 Fitur yang "dibanggakan":
+
 - **Dual-panel layout** — info sistem di kiri, panel kecil di kanan. Supaya terlihat seperti orang yang tahu apa yang mereka lakukan
 - **Custom logo** lewat kitty terminal — foto bisa masuk ke terminal. Ya, kamu baca dengan benar
 - **Quote section** dari Johan Liebert — karena tidak ada yang lebih pas untuk mendeskripsikan kondisi RAM yang penuh dari *Monster*
@@ -51,17 +52,20 @@ Sebelum sok-sokan copy config ini, pastiin dulu:
 ### 1. Install Fastfetch
 
 **Ubuntu/Debian:**
+
 ```bash
 sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
 sudo apt update && sudo apt install fastfetch
 ```
 
 **Arch (kalau kamu lebih suka susah):**
+
 ```bash
 sudo pacman -S fastfetch
 ```
 
 **Nix/NixOS (kamu tahu siapa kamu):**
+
 ```bash
 nix-env -iA nixpkgs.fastfetch
 ```
@@ -145,7 +149,7 @@ fastfetch
 Kalau tampilannya berantakan, kemungkinan besar:
 
 1. **Font tidak support Unicode** → ganti font terminal
-2. **Kitty tidak terdeteksi** → ganti `type: "kitty"` jadi `type: "none"`  
+2. **Kitty tidak terdeteksi** → ganti `type: "kitty"` jadi `type: "none"`
 3. **Versi fastfetch terlalu lama** → update
 4. **Path gambar salah** → baca lagi langkah 3, pelan-pelan
 
@@ -236,3 +240,4 @@ Made with terlalu banyak kopi dan terlalu sedikit tidur oleh [akbar-permana](htt
 Kalau config ini membantu, kasih ⭐ — buat portofolio, hehe. Moga masuk surga, aamiin.
 
 </div>
+
